@@ -1,1 +1,17 @@
+# 1. System Definition and Requirements
 
+## 1.1 System Definition & Engineering Need
+* **Problem Statement:** Raw crude oil contains salts that break down at high temperatures. This creates hydrochloric acid ($HCl$) and corrosive gases like hydrogen sulfide ($H_2S$), which can cause serious damage to the facility's equipment.
+* **System Objective:** The main goal of the desalting system is to remove these salts from the raw crude oil. This prevents equipment corrosion, reduces the need for maintenance, and prevents economic losses.
+
+## 1.2 System Architecture
+* **Structural Design:** The system uses a two-stage setup, with two desalting units connected in series.
+* **Flow Configuration:** The process works with a counter-current flow. The crude oil and the wash water flow in opposite directions to improve the salt removal.
+* **Phase Separation:** Separating the water-in-oil emulsion is done using a combination of a high-voltage electric field and a chemical additive (demulsifier).
+
+## 1.3 Operating Conditions & Functional Requirements
+* **Operating Temperature:** Kept at about 150°C to get the right fluid density and viscosity.
+* **Operating Pressure:** 8–10 atm.
+* **Electric Field:** 32–33 kV to help the water droplets combine and separate from the oil.
+* **Water Usage:** Wash water is added at a rate of about 5% of the total crude oil volume.
+* **Key Requirement (KPI):** The final processed crude oil must have a residual water content of **~0.1%** or less.
