@@ -1,1 +1,15 @@
+# 2. Process Optimization and Trade-offs
 
+## 2.1 Optimization Objectives
+The main goals of this optimization phase were to improve the oil-water phase separation, reduce overall operational costs, and lower the hydrocarbon levels in the wastewater sent for further treatment.
+
+## 2.2 Demulsifier Trade-off Analysis
+* **The Challenge:** Finding a more cost-effective chemical additive (demulsifier) without compromising the quality of the oil-water separation.
+* **The Experiment:** We compared the system's current demulsifier with a new, less expensive alternative over a testing period. 
+* **The Results:** Both chemicals showed the exact same level of efficiency. The residual oil in the water remained in a similar range (an average of about 195 ppm), and the system's salt balance was not affected.
+* **Engineering Decision:** We recommended switching to the new demulsifier. This decision maintains the required technical performance while significantly reducing the ongoing chemical costs for the facility.
+
+## 2.3 Wastewater Treatment Optimization (Jar Test)
+* **The Problem:** The water exiting the desalting units still contains residual hydrocarbons (oil). Removing this oil later in the process requires a lot of energy and increases separation costs.
+* **The Experiment:** We used a "Jar Test" setup to simulate field conditions in the lab, testing three different types of flocculants at a final concentration of 5 ppm.
+* **The Results:** Flocculant #1 proved to be the most effective. It reduced the oil concentration in the water by about half (for example, dropping from 216 ppm down to 97 ppm) and lowered the water turbidity (from 97 NTU to 59 NTU). It also created stable, dark "flocs" (clusters) that made it much easier to collect and separate the oil from the water.
