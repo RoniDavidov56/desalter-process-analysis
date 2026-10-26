@@ -6,8 +6,8 @@ The project will present the process through an interactive 3D visualization, al
 
 ## Project Objectives
 
-- Illustrate the equipment, process streams, and water circulation.
-- Explain the salt balance problem and the investigation approach.
+- Illustrate the equipment, process streams and water circulation.
+- Evaluate the desalting process, including alternative demulsifiers and flocculants.
 - Present my contribution, findings, and engineering recommendations.
 
 ## Project Status
