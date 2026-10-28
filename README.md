@@ -4,7 +4,7 @@
 
 ### [Open the Interactive Model →](https://ronidavidov56.github.io/desalter-process-analysis/)
 
-[![Two-stage desalting system with permanent vessel cutaways, blue water droplets, chemical injection lines and the supporting water circuit.](assets/desalter-system-preview-2026-10-28-v2.jpg)](https://ronidavidov56.github.io/desalter-process-analysis/)
+[![Two-stage desalting system with permanent vessel cutaways, blue water droplets, chemical injection lines and the supporting water circuit.](desalter-preview-20261028.jpg)](https://ronidavidov56.github.io/desalter-process-analysis/)
 
 *Click the preview to open the live model. Rotate, zoom and explore the connected system in your browser.*
 
