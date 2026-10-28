@@ -26,11 +26,11 @@ It illustrates how fluid transport, preheating, mixing, chemical treatment and e
 
 ## Engineering Principles
 
-**Move and mix** — Pumps supply hydraulic energy. Preheating reduces crude viscosity and mixing disperses wash water into the crude.
+**Move and mix** - Pumps supply hydraulic energy. Preheating reduces crude viscosity and mixing disperses wash water into the crude.
 
-**Coalesce and settle** — Demulsifier helps destabilize the emulsion. The electric field promotes droplet coalescence and larger water drops settle under gravity.
+**Coalesce and settle** - Demulsifier helps destabilize the emulsion. The electric field promotes droplet coalescence and larger water drops settle under gravity.
 
-**Control and circulate** — Interface control regulates water withdrawal. Interstage reuse and the supporting water circuit connect the separation stages with downstream water treatment.
+**Control and circulate** - Interface control regulates water withdrawal. Interstage reuse and the supporting water circuit connect the separation stages with downstream water treatment.
 
 ## Explore the Workflow
 
@@ -70,9 +70,5 @@ The Separators Department is a general treatment boundary. Its internal operatio
 
 The model uses original explanatory geometry informed by public references. No manufacturer affiliation or identical installed equipment is implied.
 
-</details>
 
----
 
-**Roni Davidov · Engineering Portfolio**  
-*Two stages. One connected process.*
