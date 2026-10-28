@@ -62,11 +62,25 @@
   <p class="schematic-note">Schematic process visualization. Equipment arrangement and motion are illustrative; this is not an as-built model or a validated process simulation.</p>
 
   <section class="notes" id="project-notes" aria-label="Project notes and references">
-    <div class="notes-intro"><p class="eyebrow">ABOUT THIS STUDY</p><h2>A process, made visible.</h2><p id="project-summary"></p><ol id="objectives"></ol></div>
+    <div class="notes-intro">
+      <p class="eyebrow">ABOUT THIS PROJECT</p><h2>A process, made visible.</h2>
+      <p id="project-summary"></p>
+      <p>The project illustrates how fluid transport, heating, mixing, and electrostatic separation work together. It also provides context for the evaluation of alternative demulsifiers and flocculants.</p>
+      <h3>Project Objectives</h3><ol id="objectives"></ol>
+      <h3>Engineering Principles</h3>
+      <p><strong>Transport and conditioning</strong><br>Pumps supply hydraulic energy for fluid transport. Preheating reduces crude viscosity, while upstream mixing disperses wash water into the crude.</p>
+      <p><strong>Coalescence and separation</strong><br>The electric field promotes water-droplet coalescence. Larger droplets settle under gravity, while crude is collected from the upper region of each vessel.</p>
+      <p><strong>Interface control</strong><br>Interface measurement provides feedback for regulating water withdrawal and maintaining the boundary between the lower water phase and the crude above it.</p>
+    </div>
     <div class="notes-details">
-      <details open><summary>Process connections <span>01</span></summary><div class="details-content"><p>Crude moves from stage 1 to stage 2. Interstage water moves in the opposite direction.</p><ul id="connection-list"></ul></div></details>
-      <details><summary>Model assumptions <span>02</span></summary><div class="details-content"><ul id="assumptions"></ul></div></details>
-      <details><summary>Technical references <span>03</span></summary><div class="details-content"><ul id="references"></ul><p>The model uses original geometry. Reference illustrations are linked, not reproduced.</p></div></details>
+      <details open><summary>Process Connections <span>01</span></summary><div class="details-content">
+        <p>Crude flows through two successive desalting stages. Water separated in stage 2 is reused upstream of stage 1, creating countercurrent water use between the stages.</p>
+        <p><strong>Crude flow</strong></p><p>Raw crude → Feed pump → Preheating → Demulsifier addition → Stage 1 water injection and mixing → Desalter 1 → Stage 2 water injection and mixing → Desalter 2 → Downstream process.</p>
+        <p><strong>Water circulation</strong></p><ul id="connection-list"></ul>
+        <p><strong>Chemical addition</strong></p><p>Demulsifier is introduced into the crude feed before stage 1. Flocculant addition is shown at the oily water tank, before transfer to the Separators Department for further treatment.</p>
+      </div></details>
+      <details><summary>Model Scope <span>02</span></summary><div class="details-content"><ul id="assumptions"></ul><p>This model is an educational visualization rather than an as-built reconstruction or a validated process simulation.</p></div></details>
+      <details><summary>Technical References <span>03</span></summary><div class="details-content"><ul id="references"></ul><p>The visualization uses original geometry informed by these references and does not imply manufacturer affiliation.</p></div></details>
     </div>
   </section>
 </main>
