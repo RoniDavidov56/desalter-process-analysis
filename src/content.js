@@ -1,36 +1,43 @@
-// Edit public text here. Do not add unpublished operating data or trial results.
+// Public project text.
 export const project = {
-  summary: 'An engineering portfolio study of two-stage crude oil desalting, with a focus on process understanding and the evaluation of alternative demulsifiers and flocculants.',
-  objectives: [
-    'Illustrate the equipment, process streams, and water circulation.',
-    'Evaluate the desalting process, including alternative demulsifiers and flocculants.',
-    'Present approved contributions, findings, and engineering recommendations as the project develops.'
+  "summary": "An interactive engineering visualization of a two-stage desalting system, connecting equipment functions, process flows, and control principles in one accessible model.",
+  "objectives": [
+    "Explain the roles of the main equipment and the connections between process stages.",
+    "Illustrate crude flow, water reuse, chemical addition, and interface control.",
+    "Communicate engineering principles through interactive exploration and visible equipment internals."
   ],
-  assumptions: [
-    'The process connections follow the owner-confirmed diagram. Vessel proportions, elevations, nozzles and pipe routing are illustrative, not plant dimensions.',
-    'The original five-component layout is retained and expanded for explanatory feed equipment. Both cutaways are permanently open; translucent liquid still represents liquid-filled service.',
-    'Generic AC internals use three horizontal grids, insulated hangers, three external power units, a lower distributor and an upper collector, informed by the Axsia Howmar three-grid cutaway. No particular installed desalter model is claimed.',
-    'For this illustration, the distributor is above the water interface and below all three grids. This relationship is design-dependent. Grid dimensions and interface height are not operating specifications.',
-    'Proposed schematic feed order: crude feed pump → preheater → demulsifier addition → water injection → stage 1 mixing valve. The demulsifier/preheater order is not verified plant information.',
-    'Feed pumps, dosing hardware and the preheater are generic explanatory equipment. Other stream-driving pressure differences are not quantified; no interstage crude pump is assumed.',
-    'Water return from the Separators Department is confirmed. Its internal treatment methods, recovery fraction, makeup, discharge, losses, cooling and water quality are outside this model.',
-    'Chemical injection points provide context for evaluation work; the visualization does not establish full-scale implementation, product selection, dosage or measured performance.',
-    'Fluid colors, droplet sizes, motion and the narrow emulsion band explain mechanisms. They do not represent laboratory samples or validated hydrodynamics.',
-    'Camera orbit is limited to the open side so the internals remain visible. Field lines are an explanatory overlay, not an electrical design or a simulated field.'
+  "assumptions": [
+    "Equipment geometry, dimensions, pipe routing, liquid levels, and the displayed feed sequence are illustrative.",
+    "Vessel internals represent a generic AC electrostatic arrangement informed by public technical references.",
+    "The Separators Department is shown as a general water-treatment boundary. Its internal operations and the complete water balance are outside the model scope.",
+    "Colors, droplets, and motion explain process mechanisms. Chemical addition points provide context without specifying products, dosages, or treatment performance."
   ],
-  connections: [
-    'Raw crude → feed pump → preheater → demulsifier addition → stage 1 water injection and mixing → Desalter 1.',
-    'Desalter 1 upper collector → stage 2 water injection and mixing → Desalter 2 → treated crude outlet.',
-    'Desalter 2 lower water outlet → stage 1 wash water injection.',
-    'Desalter 1 lower water outlet → oily water tank → Separators Department.',
-    'Separators Department → treated water tank → wash water feed pump → stage 2 wash water injection.',
-    'Flocculant addition → oily water tank, before transfer for water treatment.'
+  "connections": [
+    "Desalter 2 → Wash water injection before stage 1.",
+    "Desalter 1 → Oily water tank → Separators Department.",
+    "Separators Department → Treated water tank → Wash water feed pump → Water injection before stage 2."
   ],
-  references: [
-    {title:'Axsia Howmar — Electrostatic coalescers',url:'https://axsiahowmar.com/solutions/crude-oil-treatment/electrostatic-coalescers/',note:'Primary internal-layout reference; the three-grid illustration was inspected. Generic geometry is drawn independently.'},
-    {title:'SLB / Schlumberger — BILECTRIC HF product sheet',url:'https://www.gmsthailand.com/wp-content/uploads/2021/09/brochure.pdf',note:'Manufacturer-authored sheet hosted by GMS. Corroborates distributors, grids, collector, mixing and water-outlet control; no proprietary performance claims are used.'},
-    {title:'Shell — WO2018081214A1',url:'https://patents.google.com/patent/WO2018081214A1/en',note:'Published design example for desalting feed, mixing and interface control; not the owner’s installation.'},
-    {title:'Alfa Laval — Crude oil desalting',url:'https://www.alfalaval.us/industries/energy-and-utilities/crude-oil-refinery/crude-oil-processing/crude-oil-desalting/',note:'Context for heat exchange around desalting. No downstream cooling or treatment equipment is inferred here.'}
+  "references": [
+    {
+      "title": "Axsia Howmar — Electrostatic coalescers",
+      "url": "https://axsiahowmar.com/solutions/crude-oil-treatment/electrostatic-coalescers/",
+      "note": "Internal equipment arrangement, coalescence, and interface control."
+    },
+    {
+      "title": "SLB / Schlumberger — BILECTRIC HF product sheet",
+      "url": "https://www.gmsthailand.com/wp-content/uploads/2021/09/brochure.pdf",
+      "note": "Desalter components and process operation. Manufacturer-authored document hosted by GMS."
+    },
+    {
+      "title": "Shell — WO2018081214A1",
+      "url": "https://patents.google.com/patent/WO2018081214A1/en",
+      "note": "A published example of desalter emulsion detection and control."
+    },
+    {
+      "title": "Alfa Laval — Crude oil desalting",
+      "url": "https://www.alfalaval.us/industries/energy-and-utilities/crude-oil-refinery/crude-oil-processing/crude-oil-desalting/",
+      "note": "Heat-exchange context for desalting systems."
+    }
   ]
 };
 
